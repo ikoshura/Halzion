@@ -12,7 +12,7 @@
 <br>
 
 
-<p>🌟 Halzion is a project management app meticulously designed to bring your passion projects to life. Our mission is to equip you with the necessary tools and resources to stay organized, motivated, and on track. 🌟</p>
+<p>🌟 Halzion is an app that’s designed to bring your passion projects to life. Our mission is to equip you with the necessary tools and resources to stay organized, motivated, and on track. 🌟</p>
 <p>With Halzion, you can:</p>
 <table>
   <tr>
