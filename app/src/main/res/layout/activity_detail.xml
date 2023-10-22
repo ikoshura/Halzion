@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.ForgotPasswordActivity">
+
+  <FrameLayout
+      android:id="@+id/fl_header_image"
+      android:layout_width="wrap_content"
+      android:layout_height="@dimen/auth_header_image_height"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/content_description"
+        android:scaleType="fitXY"
+        android:src="@drawable/auth_screens_background" />
+
+    <ImageView
+        android:layout_width="@dimen/auth_logo_width_size"
+        android:layout_height="@dimen/auth_logo_height_size"
+        android:paddingTop="25dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:src="@drawable/android"
+        app:tint="@color/white" />
+  </FrameLayout>
+
+  <com.example.halzion.utils.MSPTextViewBold
+      android:id="@+id/tv_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="35dp"
+      android:text="Android"
+      android:textColor="@color/colorPrimaryText"
+      android:textSize="@dimen/forgot_password_title_textSize"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/fl_header_image" />
+
+  <com.example.halzion.utils.MSPTextView
+      android:id="@+id/tv_title_description"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="50dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="50dp"
+      android:gravity="center"
+      android:text="Android is a mobile operating system that was developed by Google to be primarily used for touchscreen devices, cell phones, and tablets \n\nOver the years, Android has evolved through various versions, each offering improved functionality and additional features. It has become the operating system of choice for many smartphone manufacturers around the world. \n\n This has resulted in a diverse ecosystem of devices running on Android, each offering a unique user experience. Moreover, Android also boasts a vast app ecosystem, with millions of apps available for download on the Google Play Store, catering to a wide range of user needs."
+      android:textColor="@color/colorPrimaryText"
+      android:textSize="@dimen/forgot_password_title_description_textSize"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+
+  <com.example.halzion.utils.MSPButton
+      android:id="@+id/btn_back"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="30dp"
+      android:layout_marginEnd="16dp"
+      android:background="@drawable/button_background"
+      android:foreground="?attr/selectableItemBackground"
+      android:gravity="center"
+      android:paddingTop="@dimen/btn_padding"
+      android:paddingBottom="@dimen/btn_padding"
+      android:text="Back to Dashbord"
+      android:textColor="@android:color/white"
+      android:textSize="@dimen/btn_textSize"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/tv_title_description" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

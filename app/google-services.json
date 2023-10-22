@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "380179490488",
+    "project_id": "halzion-ab36b",
+    "storage_bucket": "halzion-ab36b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380179490488:android:6c76de457546d4b608f64d",
+        "android_client_info": {
+          "package_name": "com.example.halzion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbtkDF7oBw4dyTCVl7PDt-OUJwwwhweow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
